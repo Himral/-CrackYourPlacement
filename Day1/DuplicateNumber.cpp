@@ -1,7 +1,7 @@
 # Brute Force : 
 ---
 Do a linear search for each element
-`
+
 class Solution
 {
 public:
@@ -20,7 +20,7 @@ public:
     }
 };
 `
-Optimal Approach : Using Tortoise Method
+# Optimal Approach : Using Tortoise Method
 We treat our array as linked list and apply tortoise method to detect cycle in linked list
 Futher we need to find the start of our cycle
 
