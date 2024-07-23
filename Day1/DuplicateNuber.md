@@ -1,9 +1,12 @@
-class Solution
+# Brute Force : 
+---
+Do a linear search for each element
+`class Solution
 {
 public:
     int findDuplicate(vector<int> &nums)
     {
-        // Brute Force : Do a linear search for each element
+        // 
         // Better Approach : Use a map to store frequency or a set
         set<int> s;
         for (int i = 0; i < nums.size(); i++)
@@ -14,7 +17,7 @@ public:
         }
         return -1;
     }
-};
+};`
 
 Optimal Approach : Using Tortoise Method
 We treat our array as linked list and apply tortoise method to detect cycle in linked list
